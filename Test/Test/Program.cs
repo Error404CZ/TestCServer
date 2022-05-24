@@ -10,6 +10,7 @@ namespace Test
             while (true)
             {
                 Console.WriteLine("Fuck");
+                Console.WriteLine("DoubleFuck");
             }
         }
     }
