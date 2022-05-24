@@ -7,6 +7,10 @@ namespace Test
         public static void Main(string[] args)
         {
             Console.Write("Hello World");
+            while (true)
+            {
+                Console.WriteLine("Fuck");
+            }
         }
     }
 }
