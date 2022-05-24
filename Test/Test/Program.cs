@@ -7,11 +7,8 @@ namespace Test
         public static void Main(string[] args)
         {
             Console.Write("Hello World");
-            while (true)
-            {
-                Console.WriteLine("Fuck");
-                Console.WriteLine("DoubleFuck");
-            }
+            Console.Write("Hello");
+            Console.ReadLine();
         }
     }
 }
