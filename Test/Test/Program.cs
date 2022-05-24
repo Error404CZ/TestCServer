@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Runtime.Remoting.Metadata.W3cXsd2001;
 
 namespace Test
 {
@@ -6,8 +7,19 @@ namespace Test
     {
         public static void Main(string[] args)
         {
-            Console.Write("Hello World");
-            Console.Write("Hello");
+             var TestCalss = new TestCalss();
+            
+            Console.WriteLine("Hello World");
+            string testString = Console.ReadLine();
+            try
+            {
+                TestCalss.test = Convert.ToInt32(testString);
+            }
+            catch
+            {
+                Console.WriteLine("FuckOF");
+            }
+            
             Console.ReadLine();
         }
     }
